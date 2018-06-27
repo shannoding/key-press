@@ -1,0 +1,60 @@
+body {
+	margin:0;
+	background:black;
+}
+
+h1 {
+	color:white;
+	font-family:sans-serif;
+	text-align:center;
+}
+
+.space {
+	background:black;
+	width:50px;
+	height:50px;
+	float:left;
+	border-radius:5px;
+	margin:5px;
+	box-shadow:0px 0px 1px #999;
+}
+.board {
+	width:80%;
+	overflow:hidden;
+	margin:50px auto;
+}
+
+.activated-play {
+	background:white;
+}
+
+.activated-comp1 {
+	/* red */
+	background:#ff6961;
+}
+
+.activated-comp2 {
+	/* orange */
+	background:#ffbf00;
+}
+
+.activated-comp3 {
+	/* yellow */
+	background:#ffff33;
+}
+
+.activated-comp4 {
+	/* green */
+	background:#77dd77;
+}
+
+.activated-comp5 {
+	/* blue */
+	background:#779ecb;
+	/*background: blue;*/
+}
+
+.activated-comp6 {
+	/* purple */
+	background:#966fd6;
+}
